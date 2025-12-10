@@ -1,3 +1,8 @@
+ body{
+    overflow: hidden;
+}
+
+
 /* HEADER 
 ------
 -------------
@@ -9,10 +14,13 @@
    
 }
 .admin {
-    width: 180px;
+    width: 120px;
     border:  none;
    
     
+}
+.menu-dropdown {
+    display: none !important;
 }
 .logo {
     text-decoration: none;
@@ -35,6 +43,9 @@
 }
 .item-icon {
     vertical-align: sub;
+}
+.icon-menu  {
+    font-size: 1rem;
 }
 .list-group {
     height: 600px;
