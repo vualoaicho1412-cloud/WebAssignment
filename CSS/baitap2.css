@@ -1,0 +1,104 @@
+ body{
+    overflow: hidden;
+}
+
+
+/* HEADER 
+------
+-------------
+-----------------
+*/
+.language {
+    width:120px;
+    border: none;
+   
+}
+.admin {
+    width: 120px;
+    border:  none;
+   
+    
+}
+.menu-dropdown {
+    display: none !important;
+}
+.logo {
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header {
+    
+    background: linear-gradient(90deg,rgba(247, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 46%, rgba(204, 231, 255, 1) 100%);
+}
+/* SIBEBAR */
+/*-----------*/
+/*-----------*/
+
+.main {
+    background-color: #ddd;
+}
+.item-icon {
+    vertical-align: sub;
+}
+.icon-menu  {
+    font-size: 1rem;
+}
+.list-group {
+    height: 600px;
+    background-color: #fff;
+}
+.list-groupt .list-group-item {
+    border: 0 !important;
+
+}
+.list-group .list-group-item:hover {
+    background-color: rgb(233, 242, 255);
+    color: rgb(72, 137, 242);
+}
+.actived {
+    background-color: rgb(233, 242, 255);
+    color: rgb(72, 137, 243);
+}
+/* content */
+/*-----------*/
+/*-----------*/
+/*-----------*/
+
+.btn-back  {
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+.btn-back:hover  {
+    opacity: 0.5;
+}
+
+.item-icon-back {
+    vertical-align: sub;
+    font-size: 20px;
+}
+.content .form .mark-symbol {
+    color: red;
+
+}
+.form {
+    background-color: #fff;
+    
+
+}
+
+.form legend  {
+    font-size: 1rem;
+}
+/* FOOTER */
+/* ------  
+--------------
+-----------------    */
+.item-icon-copyright  {
+    font-size: 0.75rem;
+}
