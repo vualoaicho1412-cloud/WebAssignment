@@ -1,0 +1,44 @@
+@media only screen and (max-width: 992px) {
+    .sidebar {
+        display: none;
+    }
+    .language  {
+        font-size: 0.75rem;
+        width: 64px;
+    }
+   .admin {
+    font-size: 0.75rem;
+    width: 100px;
+   }
+
+    .user-actions img {
+        width: 16px !important;
+        height: 12px !important;
+    }
+    .header {
+        padding: 0.5rem 0.25rem !important;
+    }
+    .rps-menu {
+        display: block !important;
+    }
+    .rps-menu .dropdown-toggle::after {
+        display: none !important;
+    }
+    .dropdown-item {
+        font-size: 0.75rem;
+        
+    }
+    .user-actions .dropdown .dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+    /* transform: none !important; */
+    min-width: 64px;
+  }
+  .icon-menu  {
+    font-size: 1rem;
+}
+  .content  {
+    padding: 12px;
+  }
+
+}
